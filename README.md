@@ -20,9 +20,13 @@ inside html file:
 <ul class="{target_name}" data-max-item={max_item} data-pg-target="{pg_target}" data-pg-target-ch="{pg_target_ch}" data-item-class="{item_class}"></ul>
 ```
 {pg_target} for Items container (Parent)
+
 {pg_target_ch} for Items (Children)
+
 {max_item} for max items per page
+
 {item_class} for navigation class (class inside li)
+
 inside js file:
 ```javascript
 $(document).ready(function() {
